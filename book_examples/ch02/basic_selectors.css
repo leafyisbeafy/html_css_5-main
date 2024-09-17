@@ -1,0 +1,24 @@
+/*
+ Description: Primary style sheet for valleytownhall.com
+ Author: Marc Hauschildt
+*/
+
+/* Adjust the styles for the body */
+body {
+    font-family: Arial, sans-serif;
+	font-size: 100%;
+    width: 300px;
+    padding: 1em;
+    background-color: chartreuse;
+    margin: 200px;
+}
+h1 {
+	font-size: 180%;
+}
+#copyright {
+    font-size: 75%;
+    text-align: right;
+}
+.base_color {
+    color: magenta;
+}
