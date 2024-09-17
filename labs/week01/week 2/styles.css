@@ -1,0 +1,116 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+}
+
+.header-content {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Site Navigation */
+.site-navigation ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.site-navigation ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.site-navigation ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #ddd;
+    padding: 20px;
+    width: 200px;
+    border-right: 1px solid #aaa;
+    text-align: center;
+}
+
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.main-content h1 {
+    margin-bottom: 20px;
+}
+
+/* Pictures */
+.pictures {
+    display: flex;
+    gap: 10px;
+}
+
+.picture {
+    background-color: #bbb;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #aaa;
+    margin-top: 20px;
+    position: relative;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    background-color: #aaa;
+    padding: 10px;
+    border-radius: 5px;
+}
